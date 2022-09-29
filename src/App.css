@@ -55,7 +55,7 @@ h4 {
 }
 
 .inc-exp-container > div:first-of-type {
-  border-right: 1px solid #dedede;
+  border-right: 1px solid #a96aa8;
 }
 
 .money {
@@ -89,7 +89,7 @@ input[type='number'] {
 
 .btn {
   cursor: pointer;
-  background-color: #9c88ff;
+  background-color: #a96aa8;
   box-shadow: var(--box-shadow);
   color: #fff;
   border: 0;
@@ -127,7 +127,7 @@ input[type='number'] {
 }
 
 .list li.minus {
-  border-right: 5px solid #c0392b;
+  border-right: 5px solid #a96aa8;
 }
 
 .delete-btn {
