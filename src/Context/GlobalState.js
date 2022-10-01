@@ -13,7 +13,7 @@ const ininitialState = {
 
 
 //Create context 
-export const GlobalContext = createContext(ininitialState);
+export const GlobalContext =  createContext(ininitialState);
 
 
 //provider component
@@ -40,7 +40,7 @@ export const GlobalProvider = ({ children }) => {
 
     return (
         <GlobalContext.Provider value={{
-            transactions:state.transactions,deleateTransation
+            transactions:state.transactions,deleateTransation,AddTransation
         }}>
             {children}
         </GlobalContext.Provider>
