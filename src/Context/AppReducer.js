@@ -1,4 +1,4 @@
-export default(state, action) => {
+const reducer = (state, action) => {
     switch(action.type){
         case "DELEATE_TRANSACTION":
             return{
@@ -11,8 +11,9 @@ export default(state, action) => {
                     transactions: [action.payload, ...state.transactions]
                 }
                   
-                
         default:
             return state;
     }
 }
+
+export default reducer;

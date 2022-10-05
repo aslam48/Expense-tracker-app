@@ -1,5 +1,4 @@
 import React, {createContext, useReducer} from 'react'
-import Transation from '../Component/Transation';
 import AppReducer from './AppReducer'
 
 //ininitial state
